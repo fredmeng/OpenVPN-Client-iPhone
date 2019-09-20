@@ -43,7 +43,7 @@ proto udp4
 # The hostname/IP and port of the server.
 # You can have multiple remote entries
 # to load balance between the servers.
-remote ec2.1234.amazonaws.com 1194
+remote ec2-1-2-3-4.x.compute.amazonaws.com 1194
 
 # Choose a random host from the remote
 # list for load-balancing.  Otherwise
